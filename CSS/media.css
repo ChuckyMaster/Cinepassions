@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+  /* Header */
+
+  header {
+    width: 100%;
+  }
+
+  /* Burger menus */
+  .fas,
+  .fa-bars {
+    font-size: 50px;
+    display: initial;
+  }
+  header nav ul {
+    display: none;
+  }
+
+  /*  partie concept */
+
+  main #concept {
+    flex-direction: column;
+    text-align: center;
+  }
+  main #concept img {
+    margin: auto;
+  }
+
+  /* Partie programme */
+
+  main #programme {
+    height: auto;
+  }
+
+  main #programme .container div {
+    flex-direction: column;
+  }
+
+  main #programme .container div article {
+    margin: 15px;
+  }
+
+  /* Partie abonnement */
+  main #abonnement .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main #abonnement .card {
+    width: auto;
+    margin: 20px;
+  }
+}

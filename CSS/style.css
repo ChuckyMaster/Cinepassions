@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;700&display=swap");
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ CSS GLOBAL ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 75px;
+  margin: 85px 0 20px 0;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+
+  font-weight: bold;
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ CLASSES GLOBAL ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+
+.container {
+  max-width: 1060px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.btn {
+  background-color: #970134;
+  color: white;
+  padding: 15px 15px;
+  margin-top: 30px;
+}
+
+.fas,
+.fa-bars {
+  font-size: 50px;
+  display: none;
+  margin-right: 15px;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ CSS PAR SECTION ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥  */
+
+/*  --------Header--------- */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.255)),
+    url(/img/cinema.jpg);
+  color: white;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  height: 550px;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header nav img {
+  width: 250px;
+}
+
+/*  --------Partie Concept--------- */
+
+main #concept {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  padding: 50px;
+}
+
+main #concept img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 90%;
+  margin-right: 60px;
+}
+
+main #concept p {
+  margin-bottom: 30px;
+}
+
+/*  --------Partie Programme--------- */
+
+main #programme {
+  background-image: linear-gradient(#633f4bd3, #97013350), url(/img/salle.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+main #programme h3 {
+  margin: 10px auto 50px auto;
+  padding-top: 0;
+}
+
+main #programme .container div {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+main #programme .container div article {
+  padding: 0 25px 30px 25px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+/*  --------Partie Abonnement--------- */
+
+main #abonnement {
+  text-align: center;
+  margin: 50px;
+}
+
+main #abonnement h2 {
+  margin-bottom: 40px;
+}
+
+main #abonnement .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+main #abonnement .card {
+  background-color: #970134;
+  color: white;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+}
+
+/* ♥ ♠ ♦ ♣ ♥ ♠ ♦ ♣ FOOTER ♥ ♠ ♦ ♣ ♥ ♠ ♦ ♣ */
+
+footer {
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  height: 55px;
+  margin-top: 40px;
+  border-top: 1px solid #970134;
+}
